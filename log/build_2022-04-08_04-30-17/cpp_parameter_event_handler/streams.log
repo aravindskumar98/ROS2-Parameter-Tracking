@@ -1,0 +1,63 @@
+[0.019s] Invoking command in '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/aravind/dev/paramTrack/src/cpp_parameter_event_handler -DCMAKE_INSTALL_PREFIX=/home/aravind/dev/paramTrack/install/cpp_parameter_event_handler
+[0.208s] -- The C compiler identification is GNU 9.4.0
+[0.366s] -- The CXX compiler identification is GNU 9.4.0
+[0.378s] -- Check for working C compiler: /usr/bin/cc
+[0.506s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.510s] -- Detecting C compiler ABI info
+[0.642s] -- Detecting C compiler ABI info - done
+[0.670s] -- Detecting C compile features
+[0.671s] -- Detecting C compile features - done
+[0.678s] -- Check for working CXX compiler: /usr/bin/c++
+[0.822s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.825s] -- Detecting CXX compiler ABI info
+[0.975s] -- Detecting CXX compiler ABI info - done
+[0.993s] -- Detecting CXX compile features
+[0.994s] -- Detecting CXX compile features - done
+[1.005s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.055s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.056s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.198s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.286s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.464s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.514s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.653s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.754s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.759s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.793s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.795s] -- Looking for pthread.h
+[1.921s] -- Looking for pthread.h - found
+[1.921s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.051s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.051s] -- Looking for pthread_create in pthreads
+[2.148s] -- Looking for pthread_create in pthreads - not found
+[2.148s] -- Looking for pthread_create in pthread
+[2.258s] -- Looking for pthread_create in pthread - found
+[2.260s] -- Found Threads: TRUE  
+[2.486s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.586s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.588s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.588s] -- Configured cppcheck include dirs: 
+[2.588s] -- Configured cppcheck exclude dirs and/or files: 
+[2.589s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.590s] -- Configured cpplint exclude dirs and/or files: 
+[2.591s] -- Added test 'lint_cmake' to check CMake code style
+[2.592s] -- Added test 'uncrustify' to check C / C++ code style
+[2.592s] -- Configured uncrustify additional arguments: 
+[2.593s] -- Added test 'xmllint' to check XML markup files
+[2.597s] -- Configuring done
+[2.605s] -- Generating done
+[2.608s] -- Build files have been written to: /home/aravind/dev/paramTrack/build/cpp_parameter_event_handler
+[2.618s] Invoked command in '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/aravind/dev/paramTrack/src/cpp_parameter_event_handler -DCMAKE_INSTALL_PREFIX=/home/aravind/dev/paramTrack/install/cpp_parameter_event_handler
+[2.621s] Invoking command in '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/aravind/dev/paramTrack/build/cpp_parameter_event_handler -- -j12 -l12
+[2.681s] [35m[1mScanning dependencies of target parameter_event_handler[0m
+[2.775s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[5.047s] [01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:[m[K In constructor ‘[01m[KSampleNodeWithParameters::SampleNodeWithParameters()[m[K’:
+[5.047s] [01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:31:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kcb[m[K’ was not declared in this scope; did you mean ‘[01m[Kcb2[m[K’?
+[5.047s]    31 |  = param_subscriber_->add_parameter_callback("an_int_param", [01;31m[Kcb[m[K);
+[5.047s]       |                                                              [01;31m[K^~[m[K
+[5.047s]       |                                                              [32m[Kcb2[m[K
+[7.790s] make[2]: *** [CMakeFiles/parameter_event_handler.dir/build.make:63: CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o] Error 1
+[7.790s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/parameter_event_handler.dir/all] Error 2
+[7.791s] make: *** [Makefile:141: all] Error 2
+[7.794s] Invoked command in '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/aravind/dev/paramTrack/build/cpp_parameter_event_handler -- -j12 -l12
