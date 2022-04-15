@@ -14,55 +14,23 @@ public:
         // (for this node's parameters as well as other nodes' parameters)
         param_subscriber_ = std::make_shared<rclcpp::ParameterEventHandler>(this);
 
-        // Set a callback for this node's integer parameter, "an_int_param"
-        // Now, add a callback to monitor any changes to the remote node's parameter. In this
-        // case, we supply the remote node name.
-
-        auto cb = [this](const rclcpp::Parameter &p)
+        auto cb = [this](const rcl_interfaces::msg::ParameterEvent &event)
         {
-            RCLCPP_INFO(
-                this->get_logger(), "cb: Received an update to parameter \"%s\" of type %s: \"%ld\"",
-                p.get_name().c_str(),
-                p.get_type_name().c_str(),
-                p.as_int());
-        };
-
-        auto cb2 = [this](const rclcpp::Parameter &p)
-        {
-            RCLCPP_INFO(
-                this->get_logger(), "cb2: Received an update to parameter \"%s\" of type: %s: \"%.02lf\"",
-                p.get_name().c_str(),
-                p.get_type_name().c_str(),
-                p.as_double());
-        };
-
-        auto cb3 = [this](const rcl_interfaces::msg::ParameterEvent &event)
-        {
-
             auto params = rclcpp::ParameterEventHandler::get_parameters_from_event(event);
             for (auto &p : params)
-            {   std::cout<<"here";
-                RCLCPP_INFO(this->get_logger(), "cb3: Received an update to parameter \"%s\" of type: %s: %s",p.get_name().c_str(),p.get_type_name().c_str(),p.value_to_string().c_str());
-                //  %s:   \"%s\"", 
-                // p.get_name().c_str(), 
-                // p.get_type_name().c_str(), 
-                // p.as_string().c_str());
+            {
+                std::cout << "here";
+                RCLCPP_INFO(this->get_logger(), "cb3: Received an update to parameter \"%s\" of type: %s: %s",
+                            p.get_name().c_str(), p.get_type_name().c_str(), p.value_to_string().c_str());
             }
-            // }
         };
 
-        cb_handle3 = param_subscriber_->add_parameter_event_callback(cb3);
-        auto remote_node_name = std::string("parameter_blackboard");
-        auto remote_param_name = std::string("a_double_param");
-        cb_handle2_ = param_subscriber_->add_parameter_callback(remote_param_name, cb2, remote_node_name);
-        cb_handle_ = param_subscriber_->add_parameter_callback("an_int_param", cb);
+        cb_handle = param_subscriber_->add_parameter_event_callback(cb);
     }
 
 private:
     std::shared_ptr<rclcpp::ParameterEventHandler> param_subscriber_;
-    std::shared_ptr<rclcpp::ParameterCallbackHandle> cb_handle_;
-    std::shared_ptr<rclcpp::ParameterCallbackHandle> cb_handle2_;
-    std::shared_ptr<rclcpp::ParameterEventCallbackHandle> cb_handle3; // Add this
+    std::shared_ptr<rclcpp::ParameterEventCallbackHandle> cb_handle;
 };
 
 int main(int argc, char **argv)
