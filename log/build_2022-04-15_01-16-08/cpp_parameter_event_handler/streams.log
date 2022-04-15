@@ -1,0 +1,26 @@
+[0.040s] Invoking command in '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aravind/dev/paramTrack/build/cpp_parameter_event_handler -- -j12 -l12
+[0.134s] [35m[1mScanning dependencies of target parameter_event_handler[0m
+[0.182s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[9.655s] [100%] [32m[1mLinking CXX executable parameter_event_handler[0m
+[10.048s] [100%] Built target parameter_event_handler
+[10.064s] Invoked command in '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aravind/dev/paramTrack/build/cpp_parameter_event_handler -- -j12 -l12
+[10.118s] Invoking command in '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/aravind/dev/paramTrack/build/cpp_parameter_event_handler
+[10.130s] -- Install configuration: ""
+[10.130s] -- Installing: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler
+[10.135s] -- Set runtime path of "/home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler" to ""
+[10.135s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/ament_index/resource_index/package_run_dependencies/cpp_parameter_event_handler
+[10.135s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/ament_index/resource_index/parent_prefix_path/cpp_parameter_event_handler
+[10.135s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.sh
+[10.135s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.dsv
+[10.136s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.sh
+[10.136s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.dsv
+[10.136s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.bash
+[10.137s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.sh
+[10.138s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.zsh
+[10.139s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.dsv
+[10.140s] -- Installing: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.dsv
+[10.140s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/ament_index/resource_index/packages/cpp_parameter_event_handler
+[10.140s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig.cmake
+[10.140s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig-version.cmake
+[10.141s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.xml
+[10.141s] Invoked command in '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/aravind/dev/paramTrack/build/cpp_parameter_event_handler

@@ -1,0 +1,41 @@
+[0.044s] Invoking command in '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aravind/dev/paramTrack/build/cpp_parameter_event_handler -- -j12 -l12
+[0.135s] [35m[1mScanning dependencies of target parameter_event_handler[0m
+[0.181s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[2.937s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[2.938s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[2.938s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.938s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.939s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.939s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.939s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.939s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.940s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.940s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.940s]                  from [01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:3[m[K:
+[2.940s] [01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:[m[K In lambda function:
+[2.940s] [01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:45:49:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K-Wformat-extra-args[m[K]
+[2.941s]    45 |                 RCLCPP_INFO(this->get_logger(), [01;35m[K"cb3: Received an update to parameter \"%s\" of type: %s:"[m[K,p.get_name().c_str(),p.get_type_name().c_str(),p.as_string().c_str());
+[2.941s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.805s] [100%] [32m[1mLinking CXX executable parameter_event_handler[0m
+[10.116s] [100%] Built target parameter_event_handler
+[10.128s] Invoked command in '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aravind/dev/paramTrack/build/cpp_parameter_event_handler -- -j12 -l12
+[10.179s] Invoking command in '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/aravind/dev/paramTrack/build/cpp_parameter_event_handler
+[10.190s] -- Install configuration: ""
+[10.190s] -- Installing: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler
+[10.193s] -- Set runtime path of "/home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler" to ""
+[10.194s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/ament_index/resource_index/package_run_dependencies/cpp_parameter_event_handler
+[10.194s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/ament_index/resource_index/parent_prefix_path/cpp_parameter_event_handler
+[10.195s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.sh
+[10.195s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.dsv
+[10.195s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.sh
+[10.195s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.dsv
+[10.196s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.bash
+[10.197s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.sh
+[10.197s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.zsh
+[10.198s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.dsv
+[10.199s] -- Installing: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.dsv
+[10.200s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/ament_index/resource_index/packages/cpp_parameter_event_handler
+[10.200s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig.cmake
+[10.201s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig-version.cmake
+[10.201s] -- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.xml
+[10.202s] Invoked command in '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/aravind/dev/paramTrack/build/cpp_parameter_event_handler

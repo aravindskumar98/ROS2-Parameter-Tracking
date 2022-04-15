@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target parameter_event_handler[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:[m[K In constructor ‘[01m[KSampleNodeWithParameters::SampleNodeWithParameters()[m[K’:
+[01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:50:9:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle3[m[K’ was not declared in this scope; did you mean ‘[01m[Kcb_handle3[m[K’?
+   50 |         [01;31m[Khandle3[m[K = param_subscriber_->add_parameter_event_callback(cb3);
+      |         [01;31m[K^~~~~~~[m[K
+      |         [32m[Kcb_handle3[m[K
+make[2]: *** [CMakeFiles/parameter_event_handler.dir/build.make:63: CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/parameter_event_handler.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

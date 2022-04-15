@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.003636] (cpp_parameter_event_handler) JobQueued: {'identifier': 'cpp_parameter_event_handler', 'dependencies': OrderedDict()}
+[0.004825] (cpp_parameter_event_handler) JobStarted: {'identifier': 'cpp_parameter_event_handler'}
+[0.027835] (cpp_parameter_event_handler) JobProgress: {'identifier': 'cpp_parameter_event_handler', 'progress': 'cmake'}
+[0.033180] (cpp_parameter_event_handler) JobProgress: {'identifier': 'cpp_parameter_event_handler', 'progress': 'build'}
+[0.033394] (cpp_parameter_event_handler) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler', '--', '-j12', '-l12'], 'cwd': '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'aravind'), ('SSH_AGENT_PID', '2304'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/aravind'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.66.0'), ('DESKTOP_SESSION', 'pop'), ('NVM_BIN', '/home/aravind/.nvm/versions/node/v16.14.2/bin'), ('NVM_INC', '/home/aravind/.nvm/versions/node/v16.14.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1526'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3312'), ('NVM_DIR', '/home/aravind/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'aravind'), ('JOURNAL_STREAM', '8:53364'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aravind'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aravind/anaconda3/bin:/home/aravind/anaconda3/condabin:/opt/ros/galactic/bin:/home/aravind/.nvm/versions/node/v16.14.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/2471,unix/pop-os:/tmp/.ICE-unix/2471'), ('INVOCATION_ID', '6ee3650481594776b504bd92ffe3cb41'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'pop'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4f64796f8c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('CONDA_PYTHON_EXE', '/home/aravind/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'pop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('CONDA_EXE', '/home/aravind/anaconda3/bin/conda'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/pop:/home/aravind/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/aravind/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.099180] (-) TimerEvent: {}
+[0.130465] (cpp_parameter_event_handler) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target parameter_event_handler\x1b[0m\n'}
+[0.178271] (cpp_parameter_event_handler) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o\x1b[0m\n'}
+[0.199377] (-) TimerEvent: {}
+[0.299987] (-) TimerEvent: {}
+[0.400677] (-) TimerEvent: {}
+[0.501197] (-) TimerEvent: {}
+[0.601824] (-) TimerEvent: {}
+[0.702669] (-) TimerEvent: {}
+[0.804293] (-) TimerEvent: {}
+[0.904831] (-) TimerEvent: {}
+[1.005320] (-) TimerEvent: {}
+[1.105721] (-) TimerEvent: {}
+[1.206183] (-) TimerEvent: {}
+[1.306626] (-) TimerEvent: {}
+[1.407087] (-) TimerEvent: {}
+[1.507508] (-) TimerEvent: {}
+[1.608039] (-) TimerEvent: {}
+[1.708492] (-) TimerEvent: {}
+[1.808934] (-) TimerEvent: {}
+[1.909379] (-) TimerEvent: {}
+[2.009823] (-) TimerEvent: {}
+[2.110269] (-) TimerEvent: {}
+[2.210719] (-) TimerEvent: {}
+[2.311167] (-) TimerEvent: {}
+[2.411621] (-) TimerEvent: {}
+[2.512056] (-) TimerEvent: {}
+[2.612507] (-) TimerEvent: {}
+[2.618870] (cpp_parameter_event_handler) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.619329] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.619591] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.619839] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.620239] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.620494] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.620689] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.620904] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.621086] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.621421] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.621651] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:3\x1b[m\x1b[K:\n'}
+[2.622015] (cpp_parameter_event_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.622280] (cpp_parameter_event_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:45:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktoo many arguments for format [\x1b[01;35m\x1b[K-Wformat-extra-args\x1b[m\x1b[K]\n'}
+[2.622533] (cpp_parameter_event_handler) StderrLine: {'line': b'   45 |                 RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"cb3: Received an update to parameter \\"s\\" of type: %s: \\"s\\""\x1b[m\x1b[K, p.get_name().c_str(), p.get_type_name().c_str(), p.as_string().c_str());\n'}
+[2.622704] (cpp_parameter_event_handler) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.712684] (-) TimerEvent: {}
+[2.813233] (-) TimerEvent: {}
+[2.913833] (-) TimerEvent: {}
+[3.014298] (-) TimerEvent: {}
+[3.114912] (-) TimerEvent: {}
+[3.215431] (-) TimerEvent: {}
+[3.315862] (-) TimerEvent: {}
+[3.416486] (-) TimerEvent: {}
+[3.517046] (-) TimerEvent: {}
+[3.617631] (-) TimerEvent: {}
+[3.718180] (-) TimerEvent: {}
+[3.818705] (-) TimerEvent: {}
+[3.919409] (-) TimerEvent: {}
+[4.019897] (-) TimerEvent: {}
+[4.120414] (-) TimerEvent: {}
+[4.220879] (-) TimerEvent: {}
+[4.321427] (-) TimerEvent: {}
+[4.421968] (-) TimerEvent: {}
+[4.522466] (-) TimerEvent: {}
+[4.622926] (-) TimerEvent: {}
+[4.723385] (-) TimerEvent: {}
+[4.823841] (-) TimerEvent: {}
+[4.924308] (-) TimerEvent: {}
+[5.024891] (-) TimerEvent: {}
+[5.125482] (-) TimerEvent: {}
+[5.225942] (-) TimerEvent: {}
+[5.326410] (-) TimerEvent: {}
+[5.426882] (-) TimerEvent: {}
+[5.527345] (-) TimerEvent: {}
+[5.627801] (-) TimerEvent: {}
+[5.728273] (-) TimerEvent: {}
+[5.828739] (-) TimerEvent: {}
+[5.929181] (-) TimerEvent: {}
+[6.029730] (-) TimerEvent: {}
+[6.130274] (-) TimerEvent: {}
+[6.230746] (-) TimerEvent: {}
+[6.331219] (-) TimerEvent: {}
+[6.431701] (-) TimerEvent: {}
+[6.532182] (-) TimerEvent: {}
+[6.632647] (-) TimerEvent: {}
+[6.733115] (-) TimerEvent: {}
+[6.833614] (-) TimerEvent: {}
+[6.934022] (-) TimerEvent: {}
+[7.034504] (-) TimerEvent: {}
+[7.135024] (-) TimerEvent: {}
+[7.235458] (-) TimerEvent: {}
+[7.336021] (-) TimerEvent: {}
+[7.436570] (-) TimerEvent: {}
+[7.537086] (-) TimerEvent: {}
+[7.637517] (-) TimerEvent: {}
+[7.738046] (-) TimerEvent: {}
+[7.838508] (-) TimerEvent: {}
+[7.938966] (-) TimerEvent: {}
+[8.039419] (-) TimerEvent: {}
+[8.139873] (-) TimerEvent: {}
+[8.240385] (-) TimerEvent: {}
+[8.340843] (-) TimerEvent: {}
+[8.441295] (-) TimerEvent: {}
+[8.541804] (-) TimerEvent: {}
+[8.642254] (-) TimerEvent: {}
+[8.742768] (-) TimerEvent: {}
+[8.843270] (-) TimerEvent: {}
+[8.943815] (-) TimerEvent: {}
+[9.044363] (-) TimerEvent: {}
+[9.144852] (-) TimerEvent: {}
+[9.162798] (cpp_parameter_event_handler) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable parameter_event_handler\x1b[0m\n'}
+[9.245006] (-) TimerEvent: {}
+[9.345552] (-) TimerEvent: {}
+[9.445976] (-) TimerEvent: {}
+[9.467531] (cpp_parameter_event_handler) StdoutLine: {'line': b'[100%] Built target parameter_event_handler\n'}
+[9.485651] (cpp_parameter_event_handler) CommandEnded: {'returncode': 0}
+[9.514215] (cpp_parameter_event_handler) JobProgress: {'identifier': 'cpp_parameter_event_handler', 'progress': 'install'}
+[9.523392] (cpp_parameter_event_handler) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler'], 'cwd': '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'aravind'), ('SSH_AGENT_PID', '2304'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/aravind'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.66.0'), ('DESKTOP_SESSION', 'pop'), ('NVM_BIN', '/home/aravind/.nvm/versions/node/v16.14.2/bin'), ('NVM_INC', '/home/aravind/.nvm/versions/node/v16.14.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1526'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3312'), ('NVM_DIR', '/home/aravind/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'aravind'), ('JOURNAL_STREAM', '8:53364'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aravind'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aravind/anaconda3/bin:/home/aravind/anaconda3/condabin:/opt/ros/galactic/bin:/home/aravind/.nvm/versions/node/v16.14.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/2471,unix/pop-os:/tmp/.ICE-unix/2471'), ('INVOCATION_ID', '6ee3650481594776b504bd92ffe3cb41'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'pop'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4f64796f8c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('CONDA_PYTHON_EXE', '/home/aravind/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'pop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('CONDA_EXE', '/home/aravind/anaconda3/bin/conda'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/pop:/home/aravind/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/aravind/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[9.535542] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.536082] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler\n'}
+[9.538657] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Set runtime path of "/home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler" to ""\n'}
+[9.539239] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/ament_index/resource_index/package_run_dependencies/cpp_parameter_event_handler\n'}
+[9.539691] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/ament_index/resource_index/parent_prefix_path/cpp_parameter_event_handler\n'}
+[9.539884] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.sh\n'}
+[9.540216] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.dsv\n'}
+[9.540852] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.sh\n'}
+[9.542001] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.dsv\n'}
+[9.543424] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.bash\n'}
+[9.544768] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.sh\n'}
+[9.545990] (-) TimerEvent: {}
+[9.546493] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.zsh\n'}
+[9.547210] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.dsv\n'}
+[9.547618] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Installing: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.dsv\n'}
+[9.547965] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/ament_index/resource_index/packages/cpp_parameter_event_handler\n'}
+[9.549052] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig.cmake\n'}
+[9.549426] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig-version.cmake\n'}
+[9.549705] (cpp_parameter_event_handler) StdoutLine: {'line': b'-- Up-to-date: /home/aravind/dev/paramTrack/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.xml\n'}
+[9.549910] (cpp_parameter_event_handler) CommandEnded: {'returncode': 0}
+[9.610534] (cpp_parameter_event_handler) JobEnded: {'identifier': 'cpp_parameter_event_handler', 'rc': 0}
+[9.611285] (-) EventReactorShutdown: {}

@@ -1,0 +1,44 @@
+[01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:[m[K In lambda function:
+[01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:58:35:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::ParameterEventsSubscriber[m[K’ has not been declared
+   58 |             auto params = rclcpp::[01;31m[KParameterEventsSubscriber[m[K::get_parameters_from_event(event);
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:3[m[K:
+[01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:61:29:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+   61 |                 RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "cb3: Received an update to parameter \"%s\" of type: %s: "s"", p.get_name().c_str(), p.get_type_name().c_str(), p.value_to_string().c_str());
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:61:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   61 |                 [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "cb3: Received an update to parameter \"%s\" of type: %s: "s"", p.get_name().c_str(), p.get_type_name().c_str(), p.value_to_string().c_str());
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:61:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   61 |                 [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "cb3: Received an update to parameter \"%s\" of type: %s: "s"", p.get_name().c_str(), p.get_type_name().c_str(), p.value_to_string().c_str());
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:61:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   61 |                 [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "cb3: Received an update to parameter \"%s\" of type: %s: "s"", p.get_name().c_str(), p.get_type_name().c_str(), p.value_to_string().c_str());
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:3[m[K:
+[01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:61:109:[m[K [01;31m[Kerror: [m[Kunable to find string literal operator ‘[01m[Koperator""s[m[K’ with ‘[01m[Kconst char [56][m[K’, ‘[01m[Klong unsigned int[m[K’ arguments
+   61 |                 RCLCPP_INFO(node->get_logger(), "cb3: Received an update to parameter \"%s\" of type: %s: "s[01;31m[K""[m[K, p.get_name().c_str(), p.get_type_name().c_str(), p.value_to_string().c_str());
+      |                                                                                                             [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/parameter_event_handler.dir/build.make:63: CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/parameter_event_handler.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

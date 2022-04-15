@@ -1,0 +1,2 @@
+Invoking command in '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aravind/dev/paramTrack/build/cpp_parameter_event_handler -- -j12 -l12
+Invoked command in '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aravind/dev/paramTrack/build/cpp_parameter_event_handler -- -j12 -l12

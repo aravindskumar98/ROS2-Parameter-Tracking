@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.000878] (cpp_parameter_event_handler) JobQueued: {'identifier': 'cpp_parameter_event_handler', 'dependencies': OrderedDict()}
+[0.001796] (cpp_parameter_event_handler) JobStarted: {'identifier': 'cpp_parameter_event_handler'}
+[0.029214] (cpp_parameter_event_handler) JobProgress: {'identifier': 'cpp_parameter_event_handler', 'progress': 'cmake'}
+[0.033484] (cpp_parameter_event_handler) JobProgress: {'identifier': 'cpp_parameter_event_handler', 'progress': 'build'}
+[0.035892] (cpp_parameter_event_handler) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler', '--', '-j12', '-l12'], 'cwd': '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'aravind'), ('SSH_AGENT_PID', '2304'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/aravind'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.66.0'), ('DESKTOP_SESSION', 'pop'), ('NVM_BIN', '/home/aravind/.nvm/versions/node/v16.14.2/bin'), ('NVM_INC', '/home/aravind/.nvm/versions/node/v16.14.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1526'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3312'), ('NVM_DIR', '/home/aravind/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'aravind'), ('JOURNAL_STREAM', '8:53364'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aravind'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aravind/anaconda3/bin:/home/aravind/anaconda3/condabin:/opt/ros/galactic/bin:/home/aravind/.nvm/versions/node/v16.14.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/2471,unix/pop-os:/tmp/.ICE-unix/2471'), ('INVOCATION_ID', '6ee3650481594776b504bd92ffe3cb41'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'pop'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4f64796f8c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('CONDA_PYTHON_EXE', '/home/aravind/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'pop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('CONDA_EXE', '/home/aravind/anaconda3/bin/conda'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/pop:/home/aravind/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/aravind/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.098847] (-) TimerEvent: {}
+[0.130464] (cpp_parameter_event_handler) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target parameter_event_handler\x1b[0m\n'}
+[0.179788] (cpp_parameter_event_handler) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o\x1b[0m\n'}
+[0.199095] (-) TimerEvent: {}
+[0.299925] (-) TimerEvent: {}
+[0.400516] (-) TimerEvent: {}
+[0.501073] (-) TimerEvent: {}
+[0.602179] (-) TimerEvent: {}
+[0.702886] (-) TimerEvent: {}
+[0.804153] (-) TimerEvent: {}
+[0.905306] (-) TimerEvent: {}
+[1.006110] (-) TimerEvent: {}
+[1.106807] (-) TimerEvent: {}
+[1.207779] (-) TimerEvent: {}
+[1.308989] (-) TimerEvent: {}
+[1.409512] (-) TimerEvent: {}
+[1.509988] (-) TimerEvent: {}
+[1.610505] (-) TimerEvent: {}
+[1.710975] (-) TimerEvent: {}
+[1.811511] (-) TimerEvent: {}
+[1.912095] (-) TimerEvent: {}
+[2.012610] (-) TimerEvent: {}
+[2.113176] (-) TimerEvent: {}
+[2.213617] (-) TimerEvent: {}
+[2.314058] (-) TimerEvent: {}
+[2.414718] (-) TimerEvent: {}
+[2.515332] (-) TimerEvent: {}
+[2.615745] (-) TimerEvent: {}
+[2.716326] (-) TimerEvent: {}
+[2.755147] (cpp_parameter_event_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.755803] (cpp_parameter_event_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:58:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterEventsSubscriber\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.756270] (cpp_parameter_event_handler) StderrLine: {'line': b'   58 |             auto params = rclcpp::\x1b[01;31m\x1b[KParameterEventsSubscriber\x1b[m\x1b[K::get_parameters_from_event(event);\n'}
+[2.756744] (cpp_parameter_event_handler) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.757816] (cpp_parameter_event_handler) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.758749] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.759209] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.759589] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.759979] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.760291] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.760452] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.760596] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.760739] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.760880] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.761022] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:3\x1b[m\x1b[K:\n'}
+[2.761165] (cpp_parameter_event_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:61:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KNode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.761314] (cpp_parameter_event_handler) StderrLine: {'line': b'   61 |                 RCLCPP_INFO(\x1b[01;31m\x1b[Knode\x1b[m\x1b[K->get_logger(), "cb3: Received an update to parameter \\"%s\\" of type: %s: "s"", p.get_name().c_str(), p.get_type_name().c_str(), p.value_to_string().c_str());\n'}
+[2.761460] (cpp_parameter_event_handler) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.761601] (cpp_parameter_event_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:61:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.761742] (cpp_parameter_event_handler) StderrLine: {'line': b'   61 |                 \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "cb3: Received an update to parameter \\"%s\\" of type: %s: "s"", p.get_name().c_str(), p.get_type_name().c_str(), p.value_to_string().c_str());\n'}
+[2.761886] (cpp_parameter_event_handler) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.762027] (cpp_parameter_event_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:61:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.762169] (cpp_parameter_event_handler) StderrLine: {'line': b'   61 |                 \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "cb3: Received an update to parameter \\"%s\\" of type: %s: "s"", p.get_name().c_str(), p.get_type_name().c_str(), p.value_to_string().c_str());\n'}
+[2.762313] (cpp_parameter_event_handler) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.762455] (cpp_parameter_event_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:61:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.762599] (cpp_parameter_event_handler) StderrLine: {'line': b'   61 |                 \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "cb3: Received an update to parameter \\"%s\\" of type: %s: "s"", p.get_name().c_str(), p.get_type_name().c_str(), p.value_to_string().c_str());\n'}
+[2.762771] (cpp_parameter_event_handler) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.762940] (cpp_parameter_event_handler) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.763214] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.763355] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.763490] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.763623] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.763759] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.763914] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.764056] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.764207] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.764349] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.764489] (cpp_parameter_event_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:3\x1b[m\x1b[K:\n'}
+[2.764631] (cpp_parameter_event_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:61:109:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find string literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""s\x1b[m\x1b[K\xe2\x80\x99 with \xe2\x80\x98\x1b[01m\x1b[Kconst char [56]\x1b[m\x1b[K\xe2\x80\x99, \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 arguments\n'}
+[2.764791] (cpp_parameter_event_handler) StderrLine: {'line': b'   61 |                 RCLCPP_INFO(node->get_logger(), "cb3: Received an update to parameter \\"%s\\" of type: %s: "s\x1b[01;31m\x1b[K""\x1b[m\x1b[K, p.get_name().c_str(), p.get_type_name().c_str(), p.value_to_string().c_str());\n'}
+[2.764936] (cpp_parameter_event_handler) StderrLine: {'line': b'      |                                                                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.816509] (-) TimerEvent: {}
+[2.917083] (-) TimerEvent: {}
+[3.017544] (-) TimerEvent: {}
+[3.118002] (-) TimerEvent: {}
+[3.218456] (-) TimerEvent: {}
+[3.318884] (-) TimerEvent: {}
+[3.419449] (-) TimerEvent: {}
+[3.520071] (-) TimerEvent: {}
+[3.620609] (-) TimerEvent: {}
+[3.721166] (-) TimerEvent: {}
+[3.821743] (-) TimerEvent: {}
+[3.922470] (-) TimerEvent: {}
+[4.023100] (-) TimerEvent: {}
+[4.123690] (-) TimerEvent: {}
+[4.224105] (-) TimerEvent: {}
+[4.324656] (-) TimerEvent: {}
+[4.425086] (-) TimerEvent: {}
+[4.525515] (-) TimerEvent: {}
+[4.625944] (-) TimerEvent: {}
+[4.726376] (-) TimerEvent: {}
+[4.826808] (-) TimerEvent: {}
+[4.927375] (-) TimerEvent: {}
+[5.027791] (-) TimerEvent: {}
+[5.128360] (-) TimerEvent: {}
+[5.228862] (-) TimerEvent: {}
+[5.329321] (-) TimerEvent: {}
+[5.429775] (-) TimerEvent: {}
+[5.530243] (-) TimerEvent: {}
+[5.630688] (-) TimerEvent: {}
+[5.639798] (cpp_parameter_event_handler) StderrLine: {'line': b'make[2]: *** [CMakeFiles/parameter_event_handler.dir/build.make:63: CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o] Error 1\n'}
+[5.640465] (cpp_parameter_event_handler) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/parameter_event_handler.dir/all] Error 2\n'}
+[5.641086] (cpp_parameter_event_handler) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[5.643971] (cpp_parameter_event_handler) CommandEnded: {'returncode': 2}
+[5.699875] (cpp_parameter_event_handler) JobEnded: {'identifier': 'cpp_parameter_event_handler', 'rc': 2}
+[5.710794] (-) EventReactorShutdown: {}

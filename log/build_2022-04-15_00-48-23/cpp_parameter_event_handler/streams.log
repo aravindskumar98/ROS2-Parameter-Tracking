@@ -1,0 +1,51 @@
+[0.038s] Invoking command in '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aravind/dev/paramTrack/build/cpp_parameter_event_handler -- -j12 -l12
+[0.119s] [35m[1mScanning dependencies of target parameter_event_handler[0m
+[0.166s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[2.923s] [01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:[m[K In lambda function:
+[2.923s] [01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:58:35:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::ParameterEventsSubscriber[m[K’ has not been declared
+[2.923s]    58 |             auto params = rclcpp::[01;31m[KParameterEventsSubscriber[m[K::get_parameters_from_event(event);
+[2.924s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.926s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/service.hpp:34[m[K,
+[2.926s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25[m[K,
+[2.926s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.927s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.927s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.928s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.928s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.928s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.928s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.928s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.928s]                  from [01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:3[m[K:
+[2.928s] [01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:61:29:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+[2.928s]    61 |                 RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "cb3: Received an update to parameter \"%s\" of type: %s: "s"", p.get_name().c_str(),, p.get_type_name().c_str(), p.value_to_string().c_str());
+[2.929s]       |                             [01;31m[K^~~~[m[K
+[2.929s] [01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:61:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.929s]    61 |                 [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "cb3: Received an update to parameter \"%s\" of type: %s: "s"", p.get_name().c_str(),, p.get_type_name().c_str(), p.value_to_string().c_str());
+[2.929s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[2.929s] [01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:61:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.929s]    61 |                 [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "cb3: Received an update to parameter \"%s\" of type: %s: "s"", p.get_name().c_str(),, p.get_type_name().c_str(), p.value_to_string().c_str());
+[2.929s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[2.929s] [01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:61:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.929s]    61 |                 [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "cb3: Received an update to parameter \"%s\" of type: %s: "s"", p.get_name().c_str(),, p.get_type_name().c_str(), p.value_to_string().c_str());
+[2.929s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[2.929s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[2.930s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[2.930s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.930s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.930s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.930s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.930s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.930s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.930s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.930s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.930s]                  from [01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:3[m[K:
+[2.930s] [01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:61:109:[m[K [01;31m[Kerror: [m[Kunable to find string literal operator ‘[01m[Koperator""s[m[K’ with ‘[01m[Kconst char [56][m[K’, ‘[01m[Klong unsigned int[m[K’ arguments
+[2.930s]    61 |                 RCLCPP_INFO(node->get_logger(), "cb3: Received an update to parameter \"%s\" of type: %s: "s[01;31m[K""[m[K, p.get_name().c_str(),, p.get_type_name().c_str(), p.value_to_string().c_str());
+[2.931s]       |                                                                                                             [01;31m[K^~[m[K
+[2.931s] [01m[K/home/aravind/dev/paramTrack/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:61:134:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[2.931s]    61 |                 RCLCPP_INFO(node->get_logger(), "cb3: Received an update to parameter \"%s\" of type: %s: "s"", p.get_name().c_str(),[01;31m[K,[m[K p.get_type_name().c_str(), p.value_to_string().c_str());
+[2.931s]       |                                                                                                                                      [01;31m[K^[m[K
+[5.921s] make[2]: *** [CMakeFiles/parameter_event_handler.dir/build.make:63: CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o] Error 1
+[5.922s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/parameter_event_handler.dir/all] Error 2
+[5.922s] make: *** [Makefile:141: all] Error 2
+[5.927s] Invoked command in '/home/aravind/dev/paramTrack/build/cpp_parameter_event_handler' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aravind/dev/paramTrack/build/cpp_parameter_event_handler -- -j12 -l12

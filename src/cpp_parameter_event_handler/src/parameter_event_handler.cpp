@@ -35,6 +35,23 @@ public:
                 p.get_type_name().c_str(),
                 p.as_double());
         };
+
+        auto cb3 = [this](const rcl_interfaces::msg::ParameterEvent &event)
+        {
+
+            auto params = rclcpp::ParameterEventHandler::get_parameters_from_event(event);
+            for (auto &p : params)
+            {   std::cout<<"here";
+                RCLCPP_INFO(this->get_logger(), "cb3: Received an update to parameter \"%s\" of type: %s: %s",p.get_name().c_str(),p.get_type_name().c_str(),p.value_to_string().c_str());
+                //  %s:   \"%s\"", 
+                // p.get_name().c_str(), 
+                // p.get_type_name().c_str(), 
+                // p.as_string().c_str());
+            }
+            // }
+        };
+
+        cb_handle3 = param_subscriber_->add_parameter_event_callback(cb3);
         auto remote_node_name = std::string("parameter_blackboard");
         auto remote_param_name = std::string("a_double_param");
         cb_handle2_ = param_subscriber_->add_parameter_callback(remote_param_name, cb2, remote_node_name);
@@ -44,7 +61,8 @@ public:
 private:
     std::shared_ptr<rclcpp::ParameterEventHandler> param_subscriber_;
     std::shared_ptr<rclcpp::ParameterCallbackHandle> cb_handle_;
-    std::shared_ptr<rclcpp::ParameterCallbackHandle> cb_handle2_; // Add this
+    std::shared_ptr<rclcpp::ParameterCallbackHandle> cb_handle2_;
+    std::shared_ptr<rclcpp::ParameterEventCallbackHandle> cb_handle3; // Add this
 };
 
 int main(int argc, char **argv)
